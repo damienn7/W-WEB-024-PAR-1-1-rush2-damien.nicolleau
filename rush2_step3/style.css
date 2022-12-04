@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap%27);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    overflow: auto;
+    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+header {
+    padding: 15px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: rgba(253, 29, 29, 1);
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 3px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 3px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    height: 50%;
+}
+
+.main-sub-container .carre {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    padding: 140px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.text {
+    color: white;
+}
+
+label {
+    margin: 150px;
+    font-size: 12px;
+}
+.container-rectangle {
+    display: flex;
+    justify-content: center;
+}
+
+.title-rectangle {
+    text-align: center;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.carre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.input {
+    padding-bottom: 10px;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    border-radius: 9px solid rgb(206, 205, 205);
+}
+
+.sub-carre {
+    padding: 10px;
+}
+
+.carre {
+    padding: 40px;
+    width: 81px;
+    height: 226px;
+}
+
+.trait {
+    width: 200px;
+    height: 42px;
+    padding: 2px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-rectangle {
+    padding: 100px;
+    border: 1px dashed #000;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.button-design {
+    width: 210px;
+    padding: 17px;
+    border-radius: 5px;
+    background-color: rgba(252, 176, 69, 1);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.btn {
+    padding: 10px;
+}
